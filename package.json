@@ -1,0 +1,15 @@
+{
+  "name": "weather-bot-telegram-api",
+  "version": "1.0.0",
+  "description": "This is bot for Telegram messanger, which will give to you a forecast.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maksim Zaytsev",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0"
+  }
+}
