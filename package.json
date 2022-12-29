@@ -1,7 +1,7 @@
 {
   "name": "weather-bot-telegram-api",
   "version": "1.0.0",
-  "description": "This is bot for Telegram messanger, which will give to you a forecast.",
+  "description": "This is bot for Telegram messenger, which will give to you a forecast.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
