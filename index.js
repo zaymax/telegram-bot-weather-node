@@ -1,10 +1,6 @@
+const env = require("./env")
 var TelegramBot = require("node-telegram-bot-api");
-var token = "your:token";
-
-let city = "prague";
-let apiKey = "your_api";
-
-let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+const token = env.telegram_api_token;
 
 const request = require("request");
 const keyboard = require("./keyboard");
